@@ -11,6 +11,8 @@ http://localhost:8100/currency-conversion-feign/from/USD/to/INR/quantity/10
 
 http://localhost:8761/ - Eureka
 
+http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/EUR/to/INR  - API gateway
+
 concepts covered: 
 ================
 - Spring Cloud config server
