@@ -16,8 +16,10 @@ http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/EUR/to/INR  - API
 
 To Run multiple instance of the same service with different port number:
 ========================================================================
+
 Eclipse -> Run configurations -> Spring Boot App -> Create new configuration -> select the project
 Arguements -> VM arguements: -> -Dserver.port=8001 
+
 concepts covered: 
 ================
 - Spring Cloud config server
