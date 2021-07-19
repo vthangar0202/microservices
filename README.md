@@ -13,11 +13,16 @@ http://localhost:8761/ - Eureka
 
 http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/EUR/to/INR  - API gateway
 
+
+To Run multiple instance of the same service with different port number:
+========================================================================
+Eclipse -> Run configurations -> Spring Boot App -> Create new configuration -> select the project
+Arguements -> VM arguements: -> -Dserver.port=8001 
 concepts covered: 
 ================
 - Spring Cloud config server
 - JPA
 - Load balancing:
-	Feign - Call another service's REST
+	Rest Template,Feign - To Call another service's REST
 	netflix-eureka-server - Naming server
-- Spring cloud API Gateway (Spring cloud routing)
+- Spring cloud API Gateway (Spring cloud routing, Global Filter)
