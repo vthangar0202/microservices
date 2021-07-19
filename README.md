@@ -1,4 +1,5 @@
 # microservices demo:
+
 Currency-conversion service -> Currency-Exchange service -> Database
 
 Below are the REST used in this demo:
@@ -18,6 +19,7 @@ To Run multiple instance of the same service with different port number:
 ========================================================================
 
 Eclipse -> Run configurations -> Spring Boot App -> Create new configuration -> select the project
+
 Arguements -> VM arguements: -> -Dserver.port=8001 
 
 concepts covered: 
