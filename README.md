@@ -30,3 +30,5 @@ concepts covered:
 	Rest Template,Feign - To Call another service's REST
 	netflix-eureka-server - Naming server
 - Spring cloud API Gateway (Spring cloud routing, Global Filter)
+
+Zipkin : used for distributred tracing
